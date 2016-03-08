@@ -1,0 +1,42 @@
+*** In Tic-Tac, Don't put the red X up if they mis-click.  Do penalize the points, but leave the square open so they can score it later and so that it isn't such a negative experience to them
+
+*** In GWB, award the Genius star as long as they don't make any mistakes.  Even if they don't get all cards, still give them the star.  Change the star bonus to give them a fixed number of points based upon how many words they got right.  So, if they found 3 words out of 5 and didn't get any wrong then they would get 30 points for the star bonus, while if they got 5 out of five then they would get more points, 50 for example.
+
+*** In Tic-Tac, make sure that the draw deck contains only the cards that are on the card, do not have any non-valid cards.  Each draw deck will have only 9 cards.
+
+Remove COAT and HEN
+
+*** Draw an arrow for THORN and WHISKERS
+
+Remove multi-threading from Vowel Howl dice rolling, use timer-based events instead, see if it fixes the strange static sound on Floyd and Jerry's computer
+
+GWB: Add word difficulty classification so that we can avoid penalizing players if they don't match words they would not be expceted to know
+
+*** TicTacGold: Instead of just a single game, with a max of 90 points, make it so that they can play a "match" of 3 games, and thier high-score is the sum of scores for all the games in the match.  
+
+
+
+Tic-Tac game changes:
+
+Add difficulty levels:
+Level 1: Uppercase to Uppercase matching -- Draw card speacks the name of the the lettter - Board cards make no sound
+Level 2: Lowercase to lowercase matching --  same
+Level 3: Uppercase to lowercase matching --  Draw cards are uppercase, board is lowercase - Draw cards speak the name, board cards have no sound
+Level 4: Picture to Picture -- All sounds (like current)
+Level 5: Letter to Picture -- Draw deck is letters (lowercase) with sound being the letter name, Board is pictures like current
+
+For letter to letter matching, use these letter sets:
+Set A (13)    a   p   c   d   e   f   g   h   j   v   k   z   m
+Set B (13)    n   o   b   q   r   s   t   u   i   w   x   y   l
+
+
+Vowel Howl Games:
+*** Could it buzz(signal) when you make an incorrect choice? 
+
+Possible names might be Consonant Roll and Vowel Roll.  
+
+For an auditory level could the small letters be replaced with small picture choices? 
+That would give an additional eight games and would practice an important skill. 
+Separate  letter identification won't be needed as the present phonic game practices those skills. 
+
+

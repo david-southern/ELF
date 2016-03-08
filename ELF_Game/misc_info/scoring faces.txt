@@ -1,0 +1,18 @@
+Scoring button faces:
+
+All letters are capitol, except for the varied vowel combinations
+
+Long A, E, I, O, U
+(each vowel with a bar over it)
+
+Short A, E, I, O, U
+(each vowel with a descending 1/2 circle mark over it)
+
+These varied vowel combos are lowercase, with each pair on a seperate line
+ou/ow, ar, or, er/ir/ur, oo/ew
+
+M, D, F, G, S
+
+P, N, Y, K, J
+
+B, T, W, C, H

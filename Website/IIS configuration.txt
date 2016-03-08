@@ -1,0 +1,4 @@
+-- Set IIS to treat .elfcode files as MIME type application/octet-stream so that our license files will be offered for download:
+
+%SystemRoot%\system32\inetsrv\appcmd set config /section:staticContent /+[fileExtension='.elfcode',mimeType='application/octet-stream']
+

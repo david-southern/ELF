@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDBD3784-DE44-47F9-AF6C-D2C303DACC52}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Website</RootNamespace>
+    <AssemblyName>Website</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IntelliLock.LicenseManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b776278aa41a5e8">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>licensing\IntelliLock.LicenseManager.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliLock.Licensing, Version=1.0.2.0, Culture=neutral, PublicKeyToken=fa31f7b96357acdc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>licensing\IntelliLock.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ELFServices.asmx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Beheer.aspx.cs">
+      <DependentUpon>Beheer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beheer.aspx.designer.cs">
+      <DependentUpon>Beheer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthFailure.aspx.cs">
+      <DependentUpon>AuthFailure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthFailure.aspx.designer.cs">
+      <DependentUpon>AuthFailure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Verslag.aspx.cs">
+      <DependentUpon>Verslag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Verslag.aspx.designer.cs">
+      <DependentUpon>Verslag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HandleFlyers.aspx.cs">
+      <DependentUpon>HandleFlyers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HandleFlyers.aspx.designer.cs">
+      <DependentUpon>HandleFlyers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HandleSupport.aspx.cs">
+      <DependentUpon>HandleSupport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HandleSupport.aspx.designer.cs">
+      <DependentUpon>HandleSupport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="PTOProgramFlyers.aspx.cs">
+      <DependentUpon>PTOProgramFlyers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PTOProgramFlyers.aspx.designer.cs">
+      <DependentUpon>PTOProgramFlyers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LocalUtils.cs" />
+    <Compile Include="PTOProgram.aspx.cs">
+      <DependentUpon>PTOProgram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PTOProgram.aspx.designer.cs">
+      <DependentUpon>PTOProgram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderConfirmation.aspx.cs">
+      <DependentUpon>OrderConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderConfirmation.aspx.designer.cs">
+      <DependentUpon>OrderConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ParentPower.aspx.cs">
+      <DependentUpon>ParentPower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParentPower.aspx.designer.cs">
+      <DependentUpon>ParentPower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PTORegister.aspx.cs">
+      <DependentUpon>PTORegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PTORegister.aspx.designer.cs">
+      <DependentUpon>PTORegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ELL.aspx.cs">
+      <DependentUpon>ELL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ELL.aspx.designer.cs">
+      <DependentUpon>ELL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ELFServices.asmx.cs">
+      <DependentUpon>ELFServices.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ELFThings.Master.cs">
+      <DependentUpon>ELFThings.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ELFThings.Master.designer.cs">
+      <DependentUpon>ELFThings.Master</DependentUpon>
+    </Compile>
+    <Compile Include="GamesInfo.aspx.cs">
+      <DependentUpon>GamesInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GamesInfo.aspx.designer.cs">
+      <DependentUpon>GamesInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Parents.aspx.cs">
+      <DependentUpon>Parents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Parents.aspx.designer.cs">
+      <DependentUpon>Parents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramInfo.aspx.cs">
+      <DependentUpon>ProgramInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramInfo.aspx.designer.cs">
+      <DependentUpon>ProgramInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PTO.aspx.cs">
+      <DependentUpon>PTO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PTO.aspx.designer.cs">
+      <DependentUpon>PTO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teachers.aspx.cs">
+      <DependentUpon>Teachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teachers.aspx.designer.cs">
+      <DependentUpon>Teachers.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Beheer.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="AuthFailure.aspx" />
+    <Content Include="Verslag.aspx" />
+    <Content Include="HandleFlyers.aspx" />
+    <Content Include="HandleSupport.aspx" />
+    <Content Include="ResetPassword.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="PTOProgramFlyers.aspx" />
+    <Content Include="PTOProgram.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="OrderConfirmation.aspx" />
+    <Content Include="js\jquery-1.4.2.debug.js" />
+    <Content Include="Order.aspx" />
+    <Content Include="ParentPower.aspx" />
+    <Content Include="PTORegister.aspx" />
+    <Content Include="ELL.aspx" />
+    <Content Include="css\default.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="ELFThings.Master" />
+    <Content Include="GamesInfo.aspx" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\bottom-hdiv.png" />
+    <Content Include="images\elf_logo.png" />
+    <Content Include="images\footer-l.gif" />
+    <Content Include="images\footer-r.gif" />
+    <Content Include="images\footer-rocket.gif" />
+    <Content Include="images\game_mainscreen.png" />
+    <Content Include="images\girl_computer.png" />
+    <Content Include="images\header-bg.gif" />
+    <Content Include="images\header-l.gif" />
+    <Content Include="images\header-r.gif" />
+    <Content Include="images\lesson_sample.png" />
+    <Content Include="images\menu-bg.png" />
+    <Content Include="images\pdf_button.png" />
+    <Content Include="images\section1-bg.png" />
+    <Content Include="js\pto.js" />
+    <Content Include="js\game_info.js" />
+    <Content Include="js\expando_image.js" />
+    <Content Include="js\program_info.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\jquery-1.4.2.min.js" />
+    <Content Include="js\log4javascript.js" />
+    <Content Include="Parents.aspx" />
+    <Content Include="Principal.aspx" />
+    <Content Include="ProgramInfo.aspx" />
+    <Content Include="PTO.aspx" />
+    <Content Include="Teachers.aspx" />
+    <Content Include="templates\SupportResponse.html" />
+    <Content Include="templates\ForgottenEmail.html" />
+    <Content Include="templates\FeedbackReceived.html" />
+    <Content Include="templates\SupportRequestResponse.html" />
+    <Content Include="templates\FeedbackResponse.html" />
+    <Content Include="templates\PurchaseActivationCodes.html" />
+    <Content Include="templates\PurchaseEmailConfirmation.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectUtils\ProjectUtils.csproj">
+      <Project>{B2E63EE3-6C27-4E94-984E-7BBAE6ED927D}</Project>
+      <Name>ProjectUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>58293</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

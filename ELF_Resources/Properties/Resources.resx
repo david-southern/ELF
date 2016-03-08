@@ -1,0 +1,2113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="INITIAL_B_BED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_bed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_B_BED_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_bed_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_B_BEE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_bee.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_B_BEE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_bee_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_B_BIKE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_bike.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_B_BIKE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_bike_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_B_BOAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_boat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_B_BOAT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_boat_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_B_BUG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_bug.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_B_BUG_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_bug_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_B_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_B_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_b_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_CH_CHAIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_chain.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_CH_CHAIN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_chain_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_CH_CHAIR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_chair.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_CH_CHAIR_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_chair_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_CH_CHERRY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_cherry.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_CH_CHERRY_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_cherry_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_CH_CHICKEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_chicken.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_CH_CHICKEN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_chicken_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_CH_CHURCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_church.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_CH_CHURCH_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_church_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_CH_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_CH_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_ch_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_C_CAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_car.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_C_CAR_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_car_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_C_COAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_coat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_C_COAT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_coat_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_C_CORN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_corn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_C_CORN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_corn_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAl_C_COW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_cow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_C_COW_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_cow_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_C_CUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_cup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_C_CUP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_cup_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_C_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_C_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_c_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_D_DESK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_desk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_D_DESK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_desk_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_D_DICE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_dice.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_D_DICE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_dice_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_D_DOG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_dog.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_D_DOG_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_dog_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_D_DOOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_door.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_D_DOOR_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_door_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_D_DUCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_duck.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_D_DUCK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_duck_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_D_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_D_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_d_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_F_FAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_fan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_F_FAN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_fan_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_F_FARMER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_farmer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_F_FARMER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_farmer_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_F_FISH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_fish.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_F_FISH_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_fish_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_F_FORK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_fork.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_F_FORK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_fork_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_F_FOX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_fox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_F_FOX_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_fox_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_F_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_F_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_f_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_G_GAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_game.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_G_GAME_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_game_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_G_GATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_gate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_G_GATE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_gate_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_G_GIRL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_girl.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_G_GIRL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_girl_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_G_GOAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_goat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_G_GOAT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_goat_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_G_GOOSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_goose.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_G_GOOSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_goose_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_G_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_G_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_g_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_H_HAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_hat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_H_HAT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_hat_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_H_HEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_hen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_H_HEN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_hen_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_H_HIPPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_hippo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_H_HIPPO_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_hippo_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_H_HOOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_hook.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_H_HOOK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_hook_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_H_HORSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_horse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_H_HORSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_horse_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_H_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_H_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_h_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_J_JACKET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_jacket.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_J_JACKET_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_jacket_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_J_JAIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_jail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_J_JAIL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_jail_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_J_JEEP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_jeep.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_J_JEEP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_jeep_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_J_JET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_jet.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_J_JET_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_jet_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_J_JUGGLER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_juggler.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_J_JUGGLER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_juggler_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_J_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_J_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_j_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAl_K_KANGAROO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_kangaroo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_K_KANGAROO_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_kangaroo_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_K_KEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_key.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_K_KEY_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_key_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_K_KING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_king.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_K_KING_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_king_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_K_KITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_kite.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_K_KITE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_kite_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_K_KITTEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_kitten.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_K_KITTEN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_kitten_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_K_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_K_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_k_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_L_LAMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_lamb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_L_LAMB_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_lamb_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_L_LAMP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_lamp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_L_LAMP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_lamp_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_L_LEAF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_leaf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_L_LEAF_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_leaf_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_L_LEMON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_lemon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_L_LEMON_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_lemon_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_L_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_L_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_L_LION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_lion.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_L_LION_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_l_lion_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_M_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_M_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_M_MAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_man.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_M_MAN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_man_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_M_MONKEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_monkey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_M_MONKEY_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_monkey_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_M_MOON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_moon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_M_MOON_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_moon_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_M_MOUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_mouse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_M_MOUSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_m_mouse_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_N_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_N_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_N_NAIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_nail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_N_NAIL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_nail_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_N_NEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_nest.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_N_NEST_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_nest_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_N_NET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_net.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_N_NET_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_net_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_N_NURSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_nurse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_N_NURSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_nurse_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_N_NUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_nut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_N_NUT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_n_nut_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_P_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_P_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_P_PANDA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_panda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_P_PANDA_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_panda_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_P_PEAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_pear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_P_PEAR_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_pear_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_P_PIE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_pie.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_P_PIE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_pie_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_P_PIG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_pig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_P_PIG_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_pig_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_P_PINEAPPLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_pineapple.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_P_PINEAPPLE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_p_pineapple_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_QU_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_QU_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_QU_QUAIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_quail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_QU_QUAIL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_quail_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_QU_QUEEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_queen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_QU_QUEEN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_queen_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_QU_QUESTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_question.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_QU_QUESTION_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_question_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_QU_QUILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_quill.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_QU_QUILL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_quill_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_QU_QUILT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_quilt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_QU_QUILT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_qu_quilt_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_R_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_R_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_R_RABBIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_rabbit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_R_RABBIT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_rabbit_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_R_RAINBOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_rainbow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_R_RAINBOW_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_rainbow_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_R_RING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_ring.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_R_RING_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_ring_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_R_ROBOT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_robot.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_R_ROBOT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_robot_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_R_ROOSTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_rooster.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_R_ROOSTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_r_rooster_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAl_SH_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_SH_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_SH_SHARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_shark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_SH_SHARK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_shark_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_SH_SHEEP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_sheep.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_SH_SHEEP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_sheep_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_SH_SHELL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_shell.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_SH_SHELL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_shell_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_SH_SHIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_ship.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_SH_SHIP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_ship_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_SH_SHOE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_shoe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_SH_SHOE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_sh_shoe_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_S_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_S_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_S_SAW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_saw.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_S_SAW_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_saw_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_S_SEAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_seal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_S_SEAL_SOuND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_seal_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_S_SINK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_sink.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_S_SINK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_sink_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_S_SUIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_suit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_S_SUIT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_suit_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_S_SUN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_sun.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_S_SUN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_s_sun_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_TH_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_TH_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_TH_THERMOMETER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_thermometer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_TH_THERMOMETER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_thermometer_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_TH_THIMBLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_thimble.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_TH_THIMBLE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_thimble_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_TH_THORN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_thorn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_TH_THORN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_thorn_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_TH_THUMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_thumb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_TH_THUMB_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_th_thumb_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TABLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_table.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TABLE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_table_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TEETH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_teeth.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TEETH_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_teeth_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TELEVISION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_television.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TELEVISION_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_television_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_tent.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TENT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_tent_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TIGER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_tiger.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TIGER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_tiger_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TOYS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_toys.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TOYS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_toys_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TUB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_tub.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TUB_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_tub_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TURKEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_turkey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TURKEY_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_turkey_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_T_TURTLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_turtle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_T_TURTLE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_t_turtle_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_V_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_V_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_V_VAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_van.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAl_V_VAN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_van_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_V_VASE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_vase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_V_VASE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_vase_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_V_VEGETABLES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_vegetables.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_V_VEGETABLES_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_vegetables_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_V_VEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_vest.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_V_VEST_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_vest_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_V_VIOLIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_violin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_V_VIOLIN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_v_violin_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_WH_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_WH_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_WH_WHALE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_whale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_WH_WHALE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_whale_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_WH_WHEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_wheel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_WH_WHEEL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_wheel_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_WH_WHIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_whip.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_WH_WHIP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_whip_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_WH_WHISKERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_whiskers.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_WH_WHISKERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_whiskers_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_WH_WHISTLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_whistle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_WH_WHISTLE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_wh_whistle_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_W_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_W_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_W_WAGON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_wagon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_W_WAGON_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_wagon_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_W_WATCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_watch.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_W_WATCH_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_watch_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_W_WATERMELON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_watermelon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_W_WATERMELON_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_watermelon_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_W_WEB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_web.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_W_WEB_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_web_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_W_WINDOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_W_WINDOW_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_w_window_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Y_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_Y_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Y_YARN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_yarn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_Y_YARN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_yarn_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Y_YAWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_yawn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAl_Y_YAWN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_yawn_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Y_YOLK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_yolk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_Y_YOLK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_yolk_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Y_YOYO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_yoyo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_Y_YOYO_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_y_yoyo_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Z_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_Z_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Z_ZEBRA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_zebra.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_Z_ZEBRA_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_zebra_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Z_ZERO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_zero.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_Z_ZERO_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_zero_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Z_ZIPPER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_zipper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAl_Z_ZIPPER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_zipper_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="INITIAL_Z_ZOO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_zoo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INITIAL_Z_ZOO_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\initialconsonants\initial_z_zoo_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_A_APE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_ape.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_A_APE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_ape_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_A_CAKE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_cake.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_A_CAKE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_cake_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_A_COMBO_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_combo_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_A_COMBO_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_combo_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_A_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_A_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_A_TRAIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_train.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_A_TRAIN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_train_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_A_WHALE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_whale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_A_WHALE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_a_whale_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_E_BEE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_bee.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_E_BEE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_bee_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_E_COMBO_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_combo_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_E_COMBO_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_combo_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_E_JEEP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_jeep.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_E_JEEP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_jeep_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_E_LEAF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_leaf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_E_LEAF_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_leaf_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_E_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_E_SEAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_seal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_E_SEAL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_seal_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_E_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_e_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_I_BIKE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_bike.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_I_BIKE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_bike_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_I_COMBO_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_combo_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_I_COMBO_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_combo_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_I_KITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_kite.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_I_KITE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_kite_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_I_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_I_PIE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_pie.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_I_PIE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_pie_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_I_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_I_TIE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_tie.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_I_TIE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_i_tie_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_O_BOAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_boat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_O_BOAT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_boat_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_O_COMBO_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_combo_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_O_COMBO_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_combo_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_O_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_O_NOSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_nose.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_O_NOSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_nose_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_O_ROSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_rose.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_O_ROSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_rose_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_O_SNOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_snow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_O_SNOW_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_snow_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_O_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_o_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_U_COMBO_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_combo_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_U_COMBO_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_combo_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_U_CUBE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_cube.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_U_CUBE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_cube_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_U_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_U_MULE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_mule.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_U_MULE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_mule_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_U_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONG_U_UNICORN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_unicorn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_U_UNICORN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\longvowels\long_u_unicorn_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SCORE_2P_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_2p_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_2P_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_2p_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_2P_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_2p_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_3K_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_3k_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_3K_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_3k_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_3K_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_3k_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_4D_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_4d_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_4D_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_4d_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_4D_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_4d_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_4K_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_4k_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_4K_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_4k_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_4K_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_4k_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_5D_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_5d_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_5D_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_5d_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_5D_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_5d_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_BLANK_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_blank_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_BLANK_FIRST_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_blank_first_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_BLANK_FIRST_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_blank_first_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_BLANK_FIRST_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_blank_first_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_BLANK_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_blank_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_BLANK_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_blank_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_FH_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_fh_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_FH_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_fh_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_FH_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_fh_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_B_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_b_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_B_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_b_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_B_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_b_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_CH_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_ch_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_CH_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_ch_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_CH_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_ch_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_C_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_c_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_C_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_c_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_C_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_c_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_D_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_d_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_D_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_d_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_D_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_d_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_F_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_f_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_F_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_f_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_F_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_f_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_G_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_g_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_G_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_g_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_G_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_g_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_H_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_h_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_H_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_h_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_H_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_h_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_J_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_j_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_J_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_j_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_J_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_j_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_K_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_k_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_K_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_k_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_K_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_k_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_L_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_l_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_L_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_l_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_L_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_l_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_M_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_m_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_M_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_m_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_M_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_m_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_N_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_n_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_N_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_n_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_N_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_n_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_P_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_p_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_P_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_p_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_P_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_p_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_QU_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_qu_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_QU_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_qu_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_QU_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_qu_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_R_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_r_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_R_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_r_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_R_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_r_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_SH_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_sh_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_SH_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_sh_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_SH_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_sh_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_S_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_s_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_S_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_s_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_S_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_s_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_TH_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_th_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_TH_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_th_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_TH_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_th_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_T_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_t_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_T_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_t_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_T_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_t_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_V_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_v_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_V_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_v_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_V_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_v_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_WH_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_wh_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_WH_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_wh_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_WH_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_wh_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_W_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_w_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_W_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_w_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_W_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_w_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_Y_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_y_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_Y_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_y_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_Y_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_y_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_Z_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_z_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_Z_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_z_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_INITIAL_Z_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_initial_z_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_A_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_a_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_A_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_a_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_A_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_a_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_E_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_e_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_E_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_e_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_E_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_e_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_I_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_i_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_I_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_i_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_I_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_i_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_O_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_o_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_O_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_o_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_O_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_o_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_U_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_u_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_U_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_u_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_LONG_U_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_long_u_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_AR_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_ar_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_AR_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_ar_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_AR_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_ar_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_ER_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_er_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_ER_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_er_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_ER_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_er_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OO_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_oo_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OO_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_oo_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OO_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_oo_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OR_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_or_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OR_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_or_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OR_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_or_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OW_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_ow_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OW_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_ow_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VARIED_OW_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_varied_ow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VH_BURNED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_vh_burned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VH_SCORED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_vh_scored.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCORE_VH_UP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\scoringbuttons\score_vh_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_A_ANT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_ant.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_A_ANT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_ant_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_A_CAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_cat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_A_CAT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_cat_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_A_HAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_hat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_A_HAT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_hat_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_A_LAMP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_lamp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_A_LAMP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_lamp_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_A_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_A_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_A_MAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_man.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_A_MAN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_a_man_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_E_BED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_bed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_E_BED_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_bed_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_E_JET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_jet.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_E_JET_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_jet_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_E_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_E_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_E_NEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_nest.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_E_NEST_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_nest_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_E_TENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_tent.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_E_TENT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_tent_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_E_WEB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_web.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_E_WEB_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_e_web_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_I_FISH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_fish.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_I_FISH_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_fish_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_I_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_I_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_I_PIG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_pig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_I_PIG_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_pig_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_I_SHIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_ship.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_I_SHIP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_ship_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_I_SINK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_sink.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_I_SINK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_sink_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_I_WITCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_witch.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_I_WITCH_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_i_witch_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_O_CLOCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_clock.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_O_CLOCK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_clock_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_O_DOG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_dog.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_O_DOG_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_dog_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_O_FOX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_fox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_O_FOX_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_fox_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_O_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_O_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_O_MOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_mop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_O_MOP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_o_mop_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_U_BUG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_bug.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_U_BUG_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_bug_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_U_CUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_cup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_U_CUP_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_cup_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_U_DUCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_duck.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_U_DUCK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_duck_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_U_LETTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_letter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_U_LETTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_letter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_U_NUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_nut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_U_NUT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_nut_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORT_U_SUN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_sun.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_U_SUN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\shortvowels\short_u_sun_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UNMARKED_LOWER_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\unmarkedvowels\unmarked_lower_a.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNMARKED_LOWER_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\unmarkedvowels\unmarked_lower_e.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNMARKED_LOWER_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\unmarkedvowels\unmarked_lower_i.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNMARKED_LOWER_O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\unmarkedvowels\unmarked_lower_o.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNMARKED_LOWER_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\unmarkedvowels\unmarked_lower_u.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_a.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_b.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_c.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_d.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_e.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_f.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_g.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_H" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_h.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_i.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_J" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_j.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_K" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_k.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_l.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_m.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_n.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_o.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_p.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_q.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_r.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_s.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_t.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_u.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_v.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_w.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_x.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_y.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPPER_Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\uppercaseletters\upper_z.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_AR_BARN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_barn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_AR_BARN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_barn_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_AR_CAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_car.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_AR_CAR_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_car_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_AR_DART" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_dart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_AR_DART_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_dart_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_AR_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_AR_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_AR_SHARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_shark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_AR_SHARK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_shark_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_AR_STAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_star.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_AR_STAR_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ar_star_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_ER_BIRD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_bird.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_ER_BIRD_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_bird_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_ER_CHURCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_church.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_ER_CHURCH_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_church_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_ER_GIRL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_girl.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_ER_GIRL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_girl_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_ER_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_ER_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_ER_NURSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_nurse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_ER_NURSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_er_nurse_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OO_BOOT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_boot.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OO_BOOT_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_boot_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OO_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OO_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OO_MOON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_moon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OO_MOON_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_moon_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OO_SCOOTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_scooter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OO_SCOOTER_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_scooter_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OO_SCREW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_screw.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OO_SCREW_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_screw_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OO_ZOO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_zoo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OO_ZOO_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_oo_zoo_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OR_CORN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_corn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OR_CORN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_corn_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OR_DOOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_door.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OR_DOOR_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_door_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OR_FORK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_fork.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OR_FORK_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_fork_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OR_HORN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_horn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OR_HORN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_horn_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OR_HORSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_horse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OR_HORSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_horse_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OR_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OR_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_or_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OW_CLOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_clown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OW_CLOWN_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_clown_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OW_COW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_cow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OW_COW_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_cow_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OW_HOUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_house.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OW_HOUSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_house_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OW_LETTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_letters.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OW_LETTERS_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_letters_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OW_MOUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_mouse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OW_MOUSE_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_mouse_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VARIED_OW_OWL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_owl.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VARIED_OW_OWL_SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\variedvowels\varied_ow_owl_sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="APPLAUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\applause.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="APPLAUSE_SHORT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\applause_short.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BELL_CLANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\bell_clang.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BUZZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\buzz.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CELEBRATE_HOWL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\celebrate_howl.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CHIME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\chime.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CHING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\ching.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CYMBAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\cymbal.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CYMBAL_SHORT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\cymbal_short.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DICE_ROLL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\dice_roll.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\ding.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DONG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\dong.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DULL_GONG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\dull_gong.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GAME_INSTRUCTIONS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\game_instructions.rtf;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GENIUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\genius.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENIUS_STAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\genius_star.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENIUS_STAR_BLACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\genius_star_black.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENIUS_STAR_GREY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\genius_star_grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENIUS_WORD_BUILDER_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\genius_word_builder_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GREEN_CHECK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\green_check.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GWB_SELECTION_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\gwb selection_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOLD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\hold.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LONG_VOWEL_HOWL_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\long_vowel_howl_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAIN_SELECTION_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\main_selection_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PICK_POINTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\pick_pointer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\ping.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="REALLY_BAD_WORDS_DO_NOT_READ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\really bad words - do not read this.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RED_CROSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\red_cross.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHORT_VOWEL_HOWL_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\short_vowel_howl_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SONIC_PHONICS_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\sonic_phonics_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sonic_Roll_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\sonic roll background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SPEAKER_SMALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\speaker_small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SP_SELECTION_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\sp_selection_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\tang.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TEACHER_INSTRUCTIONS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\teacher_instructions.rtf;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="TIC_TAC_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\tic_tac_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TINNY_GONG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\tinny_gong.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TTG_SELECTION_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\ttg_selection_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="US_DICTIONARY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\us_dictionary.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="VARIED_VOWEL_HOWL_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\varied_vowel_howl_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VH_SELECTION_BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\vh_selection_background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vowel_Roll_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\misc\vowel roll background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.e-l-fun.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.e-l-fun.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.e-l-fun.com/">
+      <s:element name="StartRegistration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="regEmail" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="allowMarketing" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="hardwareID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StartRegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StartRegistrationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StartRegistrationRev001">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="regEmail" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="allowMarketing" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="hardwareID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clientInfo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StartRegistrationRev001Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StartRegistrationRev001Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FinishRegistration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="activationCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FinishRegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FinishRegistrationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FinishRegistrationRev001">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="activationCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hardwareID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clientInfo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FinishRegistrationRev001Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FinishRegistrationRev001Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="StartRegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:StartRegistration" />
+  </wsdl:message>
+  <wsdl:message name="StartRegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:StartRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="StartRegistrationRev001SoapIn">
+    <wsdl:part name="parameters" element="tns:StartRegistrationRev001" />
+  </wsdl:message>
+  <wsdl:message name="StartRegistrationRev001SoapOut">
+    <wsdl:part name="parameters" element="tns:StartRegistrationRev001Response" />
+  </wsdl:message>
+  <wsdl:message name="FinishRegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:FinishRegistration" />
+  </wsdl:message>
+  <wsdl:message name="FinishRegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:FinishRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="FinishRegistrationRev001SoapIn">
+    <wsdl:part name="parameters" element="tns:FinishRegistrationRev001" />
+  </wsdl:message>
+  <wsdl:message name="FinishRegistrationRev001SoapOut">
+    <wsdl:part name="parameters" element="tns:FinishRegistrationRev001Response" />
+  </wsdl:message>
+  <wsdl:portType name="ELFServicesSoap">
+    <wsdl:operation name="StartRegistration">
+      <wsdl:input message="tns:StartRegistrationSoapIn" />
+      <wsdl:output message="tns:StartRegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StartRegistrationRev001">
+      <wsdl:input message="tns:StartRegistrationRev001SoapIn" />
+      <wsdl:output message="tns:StartRegistrationRev001SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FinishRegistration">
+      <wsdl:input message="tns:FinishRegistrationSoapIn" />
+      <wsdl:output message="tns:FinishRegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FinishRegistrationRev001">
+      <wsdl:input message="tns:FinishRegistrationRev001SoapIn" />
+      <wsdl:output message="tns:FinishRegistrationRev001SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ELFServicesSoap" type="tns:ELFServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StartRegistration">
+      <soap:operation soapAction="http://www.e-l-fun.com/StartRegistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartRegistrationRev001">
+      <soap:operation soapAction="http://www.e-l-fun.com/StartRegistrationRev001" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FinishRegistration">
+      <soap:operation soapAction="http://www.e-l-fun.com/FinishRegistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FinishRegistrationRev001">
+      <soap:operation soapAction="http://www.e-l-fun.com/FinishRegistrationRev001" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ELFServicesSoap12" type="tns:ELFServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StartRegistration">
+      <soap12:operation soapAction="http://www.e-l-fun.com/StartRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartRegistrationRev001">
+      <soap12:operation soapAction="http://www.e-l-fun.com/StartRegistrationRev001" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FinishRegistration">
+      <soap12:operation soapAction="http://www.e-l-fun.com/FinishRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FinishRegistrationRev001">
+      <soap12:operation soapAction="http://www.e-l-fun.com/FinishRegistrationRev001" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ELFServices">
+    <wsdl:port name="ELFServicesSoap" binding="tns:ELFServicesSoap">
+      <soap:address location="http://localhost/ELFServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ELFServicesSoap12" binding="tns:ELFServicesSoap12">
+      <soap12:address location="http://localhost/ELFServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

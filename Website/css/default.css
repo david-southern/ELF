@@ -1,0 +1,148 @@
+html
+{
+    background: #E4E4E4 url(../images/bg.png) 0 0 repeat-x;
+    height: 100%;
+    margin-bottom: 1px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #3f3f3f;
+    font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+li
+{
+    padding-bottom: 6px;
+}
+
+.SummaryItem
+{
+    padding: 2px 10px;
+}
+
+div#section1
+{
+    color: #FBFFFF;
+    background: #277BC0 url(../images/section1-bg.png) 0 0 repeat-x;
+}
+
+div#section1 a:link, div#section1 a:visited
+{
+    color: #004B7E;
+}
+
+div#section1 .sectionheader
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+div#mainbody
+{
+    background: #fff;
+    color: #3f3f3f;
+}
+
+.pageheader
+{
+    color: #43AB31;
+    font-size: 175%;
+    font-weight: bold;
+    padding: 0px 0 5px 0;
+}
+
+.contentheading
+{
+    color: #43AB31;
+    font-size: 145%;
+    font-weight: bold;
+    padding: 10px 0 5px 0;
+}
+
+.contentsubheading
+{
+    color: #3D75BD;
+    font-size: 115%;
+    font-weight: bold;
+    padding: 10px 0 5px 0;
+}
+
+div#mainbody a
+{
+    color: #0071C0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div#mainbody ul.latestnews
+{
+    padding: 0;
+    margin: 0;
+}
+
+div#mainbody ul.latestnews li
+{
+    list-style: none;
+    /* background: url(../images/pdf_button.png) 0 0 no-repeat; */
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+div#mainbody ul.latestnews li img
+{
+    padding-right: 5px;
+    vertical-align: -3px;
+}
+
+.mainmenu
+{
+    line-height: 30px;
+    text-align: left;
+}
+
+.mainmenu a
+{
+    font-weight: bold;
+    font-size: 100%;
+    text-decoration: none;
+    padding: 0 0;
+    color: #CCC;
+}
+
+.mainmenu img
+{
+    padding: 0 10px;
+    vertical-align: middle;
+    margin: -4px 0 0 0
+}
+
+.mainmenu a:hover
+{
+    color: #FFF;
+}
+
+.learnmore
+{
+    padding: 8px 0 8px 15px;
+    
+}
+
+#ExpandoImage
+{
+    z-index: 100;
+}
+
+.ExpandoBackdrop
+{
+    background-color: #606060;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}

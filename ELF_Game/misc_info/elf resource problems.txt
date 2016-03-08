@@ -1,0 +1,6 @@
+Resource problems:
+
+For VARIED_AR_SOUND, we actually have AH
+For VARIED_CLOWN_SOUND, the initial C is cut off, so it sounds like "lown"
+
+Missing SHARK sound

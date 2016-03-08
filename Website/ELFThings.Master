@@ -1,0 +1,129 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ELFThings.master.cs" Inherits="Website.ELFThings" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>English Language Fundamentals, LLC</title>
+  <link rel="SHORTCUT ICON" href="/favicon.ico" />
+  <meta name="description" content="English Language Fundamentals" />
+  <meta name="keywords" content="elf,english,language,fundamentals,spelling" />
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <!--  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> -->
+
+  <script type="text/javascript" src="js/jquery-1.4.2.debug.js"></script>
+
+  <link href="css/default.css" rel="stylesheet" type="text/css" />
+  <asp:ContentPlaceHolder ID="AdditionalHeadContent" runat="server">
+  </asp:ContentPlaceHolder>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function()
+    {
+      if (window.initializePage && typeof initializePage == "function")
+      {
+        initializePage();
+      }
+    });
+  </script>
+
+</head>
+<body>
+  <form id="form1" runat="server">
+  <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+  </asp:ContentPlaceHolder>
+  <center>
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+      <div id="header" style="margin: 34px 0 0 0; width: 868px; background: white url(images/header-bg.gif) repeat-x;">
+        <div style="float: left; width: 18px;">
+          <img src="images/header-l.gif" alt="" /></div>
+        <a href="Default.aspx">
+          <img src="images/elf_logo.png" style="float: left; margin: 0 0 0 11px;" alt="" border="0" />
+        </a>
+        <div style="float: right; width: 18px;">
+          <img src="images/header-r.gif" alt="" /></div>
+        <div style="padding: 28px 50px 0 50px; font-size: 180%; font-weight: normal; color: #444;">
+          The partner for parents, classroom teachers,<br />
+          home schoolers and children
+        </div>
+        <div style="clear: both;">
+        </div>
+      </div>
+    </asp:ContentPlaceHolder>
+    <div id="menu" style="width: 868px; height: 30px; background: white url(images/menu-bg.png) repeat-x;">
+      <div class="mainmenu">
+        <asp:ContentPlaceHolder ID="MenuContent" runat="server">
+          <center>
+            <a href="Default.aspx">Home</a>
+            <img src="images/menu_sep.png" alt="" />
+            <a href="ProgramInfo.aspx">Spelling / Writing</a>
+            <img src="images/menu_sep.png" alt="" />
+            <a href="GamesInfo.aspx">Games</a>
+            <img src="images/menu_sep.png" alt="" />
+            <a href="Teachers.aspx">Teachers</a>
+            <img src="images/menu_sep.png" alt="" />
+            <a href="Parents.aspx">Parents</a>
+            <img src="images/menu_sep.png" alt="" />
+            <a href="Principal.aspx">Principals</a>
+            <img src="images/menu_sep.png" alt="" />
+            <a href="PTO.aspx">PTA / PTO</a>
+            <img src="images/menu_sep.png" alt="" />
+            <a href="ELL.aspx">ELL / TITLE 1</a>
+            <img src="images/menu_sep.png" alt="" />
+            <a href="Contact.aspx">Contact</a>
+            <img src="images/menu_sep.png" alt="" />
+            <asp:HyperLink ID="LoginLink" runat="server" Style="color: #6ACC59" NavigateUrl="~/Login.aspx">Login</asp:HyperLink>
+          </center>
+        </asp:ContentPlaceHolder>
+      </div>
+    </div>
+    <asp:Panel ID="BlueSection" runat="server">
+      <div id="section1" style="width: 868px; text-align: left;">
+        <div style="padding: 14px 21px 10px 21px;">
+          <asp:ContentPlaceHolder ID="SubContent" runat="server">
+          </asp:ContentPlaceHolder>
+        </div>
+      </div>
+    </asp:Panel>
+    <asp:Panel ID="WhiteSection" runat="server">
+      <div id="mainbody" style="width: 868px; clear: both; text-align: left;">
+        <div style="padding: 10px 15px 15px;">
+          <center>
+            <asp:Panel ID="ErrorPanel" runat="server" Style="width: 650px; padding: 10px; border: solid 2px black;">
+              <asp:Label ID="ErrorMessage" runat="server" ForeColor="Black" Font-Bold="true" />
+            </asp:Panel>
+          </center>
+          <asp:ContentPlaceHolder ID="MainContent" runat="server">
+          </asp:ContentPlaceHolder>
+        </div>
+      </div>
+    </asp:Panel>
+    <img src="images/bottom-hdiv.png" alt="" /><div id="footer" style="margin: 0 0 0 0; width: 868px; background: transparent url(images/footer-rocket.gif) repeat-x;">
+      <div style="float: left; width: 18px;">
+        <img src="images/footer-l.gif" alt="" /></div>
+      <div style="float: right; width: 18px;">
+        <img src="images/footer-r.gif" alt="" /></div>
+      <div style="color: #BFBDBD; font-size: 10px; text-align: center;">
+        <br />
+        ELF &copy; Copyright 2009 by English Language Fundamentals, LLC<br />
+        For more informaion:
+        <a href="mailto:support@e-l-fun.com" style="color: inherit; text-decoration: none;">support@e-l-fun.com</a></div>
+      <div style="clear: both;">
+      </div>
+    </div>
+  </center>
+  </form>
+
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+
+  <script type="text/javascript">
+    try
+    {
+      var pageTracker = _gat._getTracker("UA-15877143-1");
+      pageTracker._trackPageview();
+    } catch (err) { }</script>
+
+</body>
+</html>
